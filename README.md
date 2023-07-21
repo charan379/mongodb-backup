@@ -7,7 +7,7 @@ This Node.js package allows you to backup a MongoDB database to a zip file.
 You can install the package via npm:
 
 ```bash
-npm install mongodb-backup
+npm install @charan379/mongodb-backup
 ```
 
 ## Usage
