@@ -57,6 +57,6 @@ In this method, you can use the `backupDatabaseToZip` function with the desired 
 
 This package depends on the following modules:
 
-[archiver](https://www.npmjs.com/package/archiver) (^5.3.1)
-[mongodb](https://www.npmjs.com/package/mongodb) (^5.7.0)
-[shelljs](https://www.npmjs.com/package/shelljs) (^0.8.5)
+[archiver](https://www.npmjs.com/package/archiver) (^5.3.1)        
+[mongodb](https://www.npmjs.com/package/mongodb) (^5.7.0)       
+[shelljs](https://www.npmjs.com/package/shelljs) (^0.8.5)       
