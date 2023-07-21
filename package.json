@@ -1,5 +1,5 @@
 {
-  "name": "mongodb-backup",
+  "name": "@charan379/mongodb-backup",
   "version": "1.0.0",
   "description": "This Node.js package allows you to backup a MongoDB database to a zip file.",
   "keywords": [
