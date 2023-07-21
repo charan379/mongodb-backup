@@ -1,0 +1,16 @@
+{
+  "name": "mongodb-backup",
+  "version": "1.0.0",
+  "description": "This Node.js package allows you to backup a MongoDB database to a zip file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "charan379",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "mongodb": "^5.7.0",
+    "shelljs": "^0.8.5"
+  }
+}
