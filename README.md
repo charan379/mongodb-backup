@@ -60,3 +60,11 @@ This package depends on the following modules:
 [archiver](https://www.npmjs.com/package/archiver) (^5.3.1)        
 [mongodb](https://www.npmjs.com/package/mongodb) (^5.7.0)       
 [shelljs](https://www.npmjs.com/package/shelljs) (^0.8.5)       
+
+## Authors
+
+- [@charan379](https://www.github.com/charan379)
+
+## License
+
+[![AGPL License](https://img.shields.io/badge/LICENSE-GNU%20AGPLv3-brightgreen)](https://www.gnu.org/licenses/agpl-3.0.en.html)
