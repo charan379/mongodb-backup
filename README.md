@@ -2,39 +2,20 @@
 
 This Node.js package allows you to backup a MongoDB database to a zip file.
 
-## Installation
+## Usage
 
-You can install the package via npm:
+### Method 1: Importing the Package
+
+### Installation
+
+First you need to install this package via npm:
 
 ```bash
 npm install @charan379/mongodb-backup
 ```
 
-## Usage
+You can use this package by importing the `backupDatabaseToZip` function into your Node.js application, like below
 
-### Method 1: Command Line Usage
-
-To backup your MongoDB database from the command line, you can use the provided script `exportDB.js` directly with the node command, passing the MongoDB connection string and output zip path as runtime arguments.
-
-##### Example command:
-
-```bash
-node exportDB.js <MONGODB_CONNECTION_STRING> <OUTPUT_ZIP_PATH>
-```
-
-Replace `<MONGODB_CONNECTION_STRING>` with your actual MongoDB connection string, and `<OUTPUT_ZIP_PATH>` with the desired path to save the backup zip file.
-
-###### For example:
-
-```bash
-node exportDB.js mongodb://localhost:27017/my_database my_backup.zip
-```
-
-The script will connect to the specified MongoDB database, export each collection to a JSON file, zip the files into `my_backup.zip`, and save it in the current directory.
-
-### Method 2: Importing the Package
-
-You can also use this package by importing the `backupDatabaseToZip` function into another Node.js application.
 
 ```
 const { backupDatabaseToZip } = require("mongodb-backup");
@@ -52,6 +33,40 @@ backupDatabaseToZip(connectionString, outputZipPath)
 ```
 
 In this method, you can use the `backupDatabaseToZip` function with the desired MongoDB connection string and output zip path directly within your application.
+
+### Method 2: Command Line Usage
+
+### Installation
+
+First you need to clone this repository from github:
+
+```bash
+git clone https://github.com/charan379/mongodb-backup.git
+```
+
+To backup your MongoDB database from the command line, navigate to project folder where exportDB.js exists :
+
+```bash
+cd mongodb-backup
+```
+You can use the provided script `exportDB.js` directly with the node command by passing the MongoDB connection string and output zip file path as runtime arguments.
+
+##### Example command:
+
+```bash
+node exportDB.js <MONGODB_CONNECTION_STRING> <OUTPUT_ZIP_PATH>
+```
+
+Replace `<MONGODB_CONNECTION_STRING>` with your actual MongoDB connection string, and `<OUTPUT_ZIP_PATH>` with the desired path to save the backup zip file.
+
+###### For example:
+
+```bash
+node exportDB.js mongodb://localhost:27017/my_database my_backup.zip
+```
+
+The script will connect to the specified MongoDB database, export each collection to a JSON file, zip the files into `my_backup.zip`, and save it in the current directory.
+
 
 ### Dependencies
 
